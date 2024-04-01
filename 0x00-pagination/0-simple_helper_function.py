@@ -1,3 +1,7 @@
+#!/usr/bin/env python3
+"""returns start and end index for a given pagination parameters"""
+
+
 def index_range(page: int, page_size: int) -> tuple:
     """
     Returns a tuple containing a start index and an end index
